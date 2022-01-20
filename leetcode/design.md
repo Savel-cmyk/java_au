@@ -30,16 +30,7 @@ class MinStack {
         return pq.peek();
     }
 }
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(val);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
- ```
+```
 
 ## Implemet Stack using Queues
 
@@ -77,16 +68,7 @@ class MyStack {
         return master.isEmpty();
     }
 }
-
-/**
- * Your MyStack object will be instantiated and called as such:
- * MyStack obj = new MyStack();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.top();
- * boolean param_4 = obj.empty();
- */
- ```
+```
 
 ## Implement Queue using Stacks
 
@@ -140,12 +122,4 @@ class MyQueue {
         return this.two.isEmpty() && this.one.isEmpty();
     }
 }
-/**
- * Your MyQueue object will be instantiated and called as such:
- * MyQueue obj = new MyQueue();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.peek();
- * boolean param_4 = obj.empty();
- */
- ```
+```
